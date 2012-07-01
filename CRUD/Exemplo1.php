@@ -3,7 +3,7 @@
 include_once("config.php");
 
 $crud = new crud("TABELA", $con);
-$crud->insert("campo1, campo2", "'valoer1','valor2'");
+$crud->insert("campo1, campo2", "'valor1','valor2'");
 //$crud->del();
 
 echo "<pre>";
