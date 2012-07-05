@@ -59,7 +59,7 @@ class CRUD{
         }
 
         if (!empty($opcoes["conditions"])) {
-            $this->select .= " WHERE " . $opcoe["conditions"];
+            $this->select .= " WHERE " . $opcoes["conditions"];
         }
         
         
