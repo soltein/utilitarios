@@ -43,7 +43,7 @@ class CRUD{
         $this->conexao->exec($this->delete);
     }
 
-    public function all($options = null) {
+    public function all($opcoes = null) {
         $this->select = "SELECT ";
 
         if (!empty($opcoes["select"])) {
